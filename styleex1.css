@@ -1,0 +1,138 @@
+.main{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 100px;
+    gap:50px;
+}
+
+.princ{
+    border:1px solid black;
+    width:104px;
+    height:320px;
+    position:relative;
+}
+.princ h1{
+    font-size: 25px;
+    margin-top:340px;
+}
+.princ .div1{
+    background-color: rgb(255, 151, 220);
+    height:100px;width:100px;
+    position:absolute;
+    border:solid 3px rgb(0, 148, 185);
+}
+.princ .div2{
+    background-color: rgb(176, 216, 0);
+    height:100px;width:100px;
+    position:absolute;
+    top:110px;
+    border:solid 3px rgb(0, 148, 185);
+}
+.princ .div3{
+    background-color: rgb(0, 78, 180);
+    height:100px;width:100px;
+    position:absolute;
+    bottom:0;
+    border:solid 3px rgb(0, 148, 185);
+}
+
+/*le deuxime*/
+.deuxime{
+    border:1px solid black;
+    width:360px;
+    height:310px;
+    position:relative;
+    
+}
+.deuxime h1{
+    font-size: 25px;
+    margin-top:340px;
+    margin-left:130px;
+}
+.deuxime .div1{
+    background-color: rgb(255, 151, 220);
+    height:100px;width:116.67px;
+    position:absolute;
+    border:solid 3px rgb(0, 148, 185);
+}
+.deuxime .div2{
+    background-color: rgb(176, 216, 0);
+    height:100px;width:116.67px;
+    position:absolute;
+    top:102px;left:118px;
+    border:solid 3px rgb(0, 148, 185);
+}
+.deuxime .div3{
+    background-color: rgb(0, 78, 180);
+    height:100px;width:116.67px;
+    position:absolute;
+    bottom:0;right:0;
+    border:solid 3px rgb(0, 148, 185);
+}
+
+/*le troisieme*/
+.troisieme{
+    border:1px solid black;
+    width:300px;
+    height:230px;
+    position:relative;
+    margin-left:250px;
+}
+.troisieme h1{
+    font-size: 25px;
+    margin-top:250px;
+    margin-left:115px;
+}
+.troisieme .div1{
+    background-color: rgb(255, 151, 220);
+    height:100px;width:296px;
+    position:absolute;
+    border:solid 3px rgb(0, 148, 185);
+}
+.troisieme .div2{
+    background-color: rgb(176, 216, 0);
+    height:110px;width:130px;
+    position:absolute;
+    bottom:0;
+    border:solid 3px rgb(0, 148, 185);
+}
+.troisieme .div3{
+    background-color: rgb(0, 78, 180);
+    height:110px;width:130px;
+    position:absolute;
+    right:0;bottom:0;
+    border:solid 3px rgb(0, 148, 185);
+}
+
+/*quatrieme*/
+.quatrieme{
+    border:1px solid black;
+    width:300px;
+    height:230px;
+    position:relative;
+    margin-left:450px;
+}
+.quatrieme h1{
+    font-size: 25px;
+    margin-top:250px;
+    margin-left:110px;
+}
+.quatrieme .div1{
+    background-color: rgb(255, 151, 220);
+    height:105px;width:140px;
+    position:absolute;
+    border:solid 3px rgb(0, 148, 185);
+}
+.quatrieme .div2{
+    background-color: rgb(176, 216, 0);
+    height:105px;width:140px;
+    position:absolute;
+    bottom:0;
+    border:solid 3px rgb(0, 148, 185);
+}
+.quatrieme .div3{
+    background-color: rgb(0, 78, 180);
+    height:105px;width:140px;
+    position:absolute;
+    right:0;top:0;
+    border:solid 3px rgb(0, 148, 185);
+}

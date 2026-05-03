@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(207, 207, 207);
+}
+.princ{
+    margin-left: 100px;
+}
+.ligne1{
+    display: flex;
+    gap:100px;
+}
+.cover{
+    background-color: black;
+    width:900px;
+    height:500px;
+}
+.login{
+    background-color: white;
+    padding-right:30px;padding-left:30px;
+}
+.entree_input{
+    display: block;
+    width: 300px;height:30px;
+    margin-bottom:20px;margin-top:5px;
+}
+.b_connect{
+    display: flex;
+}

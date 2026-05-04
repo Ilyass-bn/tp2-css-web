@@ -15,7 +15,8 @@ body{
 }
 .login{
     background-color: white;
-    padding-right:30px;padding-left:30px;
+    padding-right:25px;padding-left:30px;
+    height:450px;
 }
 .entree_input{
     display: block;
@@ -25,3 +26,131 @@ body{
 .b_connect{
     display: flex;
 }
+
+.entree img{
+    width:100px;
+    margin-left:100px;margin-bottom:20px;
+}
+.t_mot_q{
+    margin-right:10px;
+    color:rgb(0, 108, 180);
+}
+.b_connect button{
+    background-color: rgb(0, 0, 155);
+    color:white;
+    padding:10px;height:40px;padding-right:18px;padding-left:10px;
+    font-size:15px;
+}
+.para{
+    background-color: white;
+    width:880px;
+    padding:10px;
+    margin-top:30px;
+}
+.para a{
+    text-decoration:none;
+}
+
+.espace{
+    width:450px;
+    background-color:white;
+    height:298px;
+    padding-bottom:10px;
+    border-radius: 10px;
+}
+.espace h1{
+    margin-left:20px;
+}
+.l1{
+    display: grid;
+    grid-template-rows: 30px 100px;
+    margin-left:20px;
+    margin-bottom:-40px;
+    margin-top:20px;
+}
+.espace_image img{
+    width:100px;
+}
+.espace_descr .espace_title{
+    font-size: 15px;
+    color:rgb(0, 94, 235);
+}
+.espace_descr{
+    margin-left:120px;
+    margin-top:-30px;
+}
+
+.evenement h1{
+    margin-left:20px;
+}
+.evenement{
+    width:450px;
+    background-color:white;
+    height:428px;
+    border-radius: 10px;
+}
+
+.evenement .l1{
+    display: grid;
+    grid-template-rows: 30px 100px;
+    margin-left:20px;
+    margin-bottom:-40px;
+    margin-top:20px;
+    padding-bottom:75px;
+}
+.espace_image img{
+    width:80px;
+}
+.espace_descr .espace_title{
+    font-size: 15px;
+    color:rgb(0, 94, 235);
+}
+.evenement .espace_descr{
+    margin-left:120px;
+    margin-top:-40px;
+    width:250px;
+}
+.cards{
+    display: flex;
+    gap:10px;
+    margin-top:20px;
+}
+.espace_descr p{
+    margin-left:20px;
+}
+
+.ligne2_1{
+    display: flex;
+}
+.actualite{
+    background-color: white;
+    margin-left: 100px;margin-top:20px;
+    
+}
+.ligne2 {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: flex-start;  /* ← important */
+}
+.cover img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    position: relative;
+}
+.cover{
+    position: relative;
+    width:900px;
+    height:500px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.cover img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+}
+

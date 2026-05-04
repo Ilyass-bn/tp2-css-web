@@ -1,0 +1,40 @@
+@media (max-width: 992px){
+
+    .ligne1{
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .cover{
+        width:100%;
+        height:300px;
+    }
+
+    .login{
+        width:100%;
+        height:auto;
+    }
+
+    .ligne2{
+        flex-direction: column;
+    }
+
+    .para{
+        width:100%;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .espace,.evenement{
+        width:100%;
+        height:auto;
+    }
+
+    .actualite{
+        width:100%;
+        margin-left:0;
+    }
+
+}
